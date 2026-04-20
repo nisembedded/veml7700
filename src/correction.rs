@@ -26,12 +26,12 @@ pub(crate) fn get_lux_raw_conversion_factor(it: IntegrationTime, gain: Gain) -> 
         Gain::OneEighth => 16.0,
     };
     let it_factor = match it {
-        IntegrationTime::_800ms => 0.0036,
-        IntegrationTime::_400ms => 0.0072,
-        IntegrationTime::_200ms => 0.0144,
-        IntegrationTime::_100ms => 0.0288,
-        IntegrationTime::_50ms => 0.0576,
-        IntegrationTime::_25ms => 0.1152,
+        IntegrationTime::_800ms => 0.0042,
+        IntegrationTime::_400ms => 0.0084,
+        IntegrationTime::_200ms => 0.0168,
+        IntegrationTime::_100ms => 0.0336,
+        IntegrationTime::_50ms => 0.0672,
+        IntegrationTime::_25ms => 0.1344,
     };
     gain_factor * it_factor
 }
