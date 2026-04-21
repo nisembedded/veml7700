@@ -37,6 +37,7 @@ Datasheet:[VEML7700](https://www.vishay.com/docs/84286/veml7700.pdf)
 Application Note:
 
 - [Designing the VEML7700 into an application](https://www.vishay.com/docs/84323/designingveml7700.pdf)
+- [Publication of correction](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6256/PIN-OPT-7462-2024-REV-1.pdf)
 
 ## Usage
 
